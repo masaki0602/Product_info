@@ -10,7 +10,8 @@
 
 ## 使用方法
 
-### ステップ１開発環境使用するデータベースで下記を使用しテーブル名[FLAY]を作成してください。
+### ステップ1
+使用するデータベースで下記を使用しテーブル名[FLAY]を作成してください。
 
 ```mysql
 CREATE TABLE FLAY(
@@ -27,7 +28,7 @@ INSERT INTO FLAY VALUES(1,'コロッケ','298');
 
 ### ステップ２
 
-add1.php , dele.php , hen.php , hensyu.php , kakikae.php , kousin.php
+__add1.php , dele.php , hen.php , hensyu.php , kakikae.php , kousin.php__
 
 上記のファイルのコードを変えてください。
 
@@ -38,7 +39,7 @@ define( "DB_PASS", "" );
 define( "DB_NAME", "" );
 define( "DB_CHARSET", "utf8mb4" );
 ```
-""の場所を使用するデータベースの情報に書き換えてください
+__""の場所を使用するデータベースの情報に書き換えてください__
 
 DB_USER = ユーザー名
 
@@ -47,7 +48,7 @@ DB_PASS = パスワード
 DB_NAME = データベース名
 
 ### ステップ３
-Pythonを使用する時にFlaskを使用するのでインストールしてください。
+__Pythonを使用する時にFlaskを使用するのでインストールしてください。__
 
 ```
 pip install flask
